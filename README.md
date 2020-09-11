@@ -1,7 +1,7 @@
-### LEARNSYS
+# LEARNSYS
 
 
-# learning system made from Firebase and React.js
+### learning system made from Firebase and React.js
 
 Features:
 
