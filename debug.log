@@ -1,0 +1,6 @@
+[0720/185148.192:ERROR:settings.cc(320)] Settings magic is not 1129342067
+[0809/190523.798:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0809/190523.798:ERROR:process_info.cc(329)] VirtualQueryEx: Access is denied. (0x5)
+[0809/190524.267:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0809/190524.267:ERROR:process_info.cc(556)] ReadMemoryInfo failed
+[0815/065300.586:ERROR:http_transport_win.cc(276)] WinHttpSendRequest: The operation completed successfully. (0x0)

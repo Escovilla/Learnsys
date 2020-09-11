@@ -1,0 +1,31 @@
+.nani {
+  height: 100vh;
+  width: auto;
+  overflow-y: scroll;
+}
+.nani::-webkit-scrollbar {
+  display: none;
+}
+.nani {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.wawo {
+  background-color: lightgray;
+}
+.loader {
+  position: fixed;
+  color: inherit;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: inherit;
+}
+.wawawaw{
+  margin-bottom: -20px;
+}
