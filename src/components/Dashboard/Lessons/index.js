@@ -14,7 +14,6 @@ import {
 } from "@material-ui/core";
 import NoteIcon from "@material-ui/icons/Note";
 import Card from "@material-ui/core/Card";
-import clsx from "clsx";
 import Box from "@material-ui/core/Box";
 import AddIcon from "@material-ui/icons/Add";
 import CardHeader from "@material-ui/core/CardHeader";
