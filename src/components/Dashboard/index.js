@@ -18,7 +18,6 @@ import ListItemText from "@material-ui/core/ListItemText";
 import Link from "@material-ui/core/Link";
 import MenuIcon from "@material-ui/icons/Menu";
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
-import { CircularProgress } from "@material-ui/core";
 import {
   Profile,
   Assingment,
@@ -26,8 +25,7 @@ import {
   Quiz,
   secondaryListItems,
 } from "../dashitems";
-import { grey, blue } from "@material-ui/core/colors";
-import withStyles from "@material-ui/core/styles/withStyles";
+import {  blue } from "@material-ui/core/colors";
 import { withRouter } from "react-router-dom";
 import Teacher from "./Teacher";
 import LinkLess from "./Lessons";
