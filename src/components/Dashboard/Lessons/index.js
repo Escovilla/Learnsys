@@ -12,32 +12,21 @@ import {
   FormControlLabel,
   InputLabel,
 } from "@material-ui/core";
-import DeleteIcon from "@material-ui/icons/Delete";
 import NoteIcon from "@material-ui/icons/Note";
 import Card from "@material-ui/core/Card";
-import clsx from "clsx";
 import Box from "@material-ui/core/Box";
-import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import AddIcon from "@material-ui/icons/Add";
 import CardHeader from "@material-ui/core/CardHeader";
-import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
-import CardActions from "@material-ui/core/CardActions";
-import Collapse from "@material-ui/core/Collapse";
 import Avatar from "@material-ui/core/Avatar";
-import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import { green } from "@material-ui/core/colors";
 import Accordion from "@material-ui/core/Accordion";
 import AccordionSummary from "@material-ui/core/AccordionSummary";
 import AccordionDetails from "@material-ui/core/AccordionDetails";
 import Grid from "@material-ui/core/Grid";
-import Divider from "@material-ui/core/Divider";
 import Paper from "@material-ui/core/Paper";
 import firebase from "../../firebase";
 import stayl from "../dash.module.css";
-import PersonIcon from "@material-ui/icons/Person";
-import { CircularProgress } from "@material-ui/core";
 import Player from "../Player";
 import Dialog from "../DialogDel";
 import FullScreen from "../fullScreen";
@@ -124,7 +113,6 @@ export default function Lessons(props) {
   const classes = useStyles();
   const { copy } = props;
 
-  const fixedHeightPaper = clsx(classes.paper3, classes.fixedHeight);
   const [url, setUrl] = useState();
   const [text, setText] = useState();
   const [subject, setSubject] = useState();
