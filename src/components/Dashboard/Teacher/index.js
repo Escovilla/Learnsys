@@ -12,18 +12,10 @@ import Box from "@material-ui/core/Box";
 import { Button } from "@material-ui/core";
 import PermIdentityIcon from "@material-ui/icons/PermIdentity";
 import CardHeader from "@material-ui/core/CardHeader";
-import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
-import CardActions from "@material-ui/core/CardActions";
-import Collapse from "@material-ui/core/Collapse";
 import Avatar from "@material-ui/core/Avatar";
-import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import { green } from "@material-ui/core/colors";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import ShareIcon from "@material-ui/icons/Share";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
 import Grid from "@material-ui/core/Grid";
 import Divider from "@material-ui/core/Divider";
 import Paper from "@material-ui/core/Paper";
@@ -31,7 +23,6 @@ import firebase from "../../firebase";
 import stayl from "../dash.module.css";
 import PersonIcon from "@material-ui/icons/Person";
 import Chart from "../Chart";
-import Lesson from "../Lessons";
 import { CircularProgress } from "@material-ui/core";
 
 const useStyles = makeStyles((theme) => ({
